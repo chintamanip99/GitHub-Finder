@@ -1,4 +1,4 @@
-import React, { Component ,useState,useContext} from 'react'
+import React, {  useState,useContext} from 'react'
 import PropTypes from 'prop-types';
 import GithubContext from '../../context/github/githubContext';
 

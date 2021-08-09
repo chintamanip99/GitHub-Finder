@@ -7,9 +7,6 @@ import {
  SEARCH_USERS,
  SET_LOADING,
  LOAD_USERS,
- CLEAR_USERS,
- GET_USER,
- GET_REPOS
 } from '../types';
 
 const GithubState=props=>{

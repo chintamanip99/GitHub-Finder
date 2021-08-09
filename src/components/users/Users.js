@@ -1,8 +1,6 @@
-import axios from 'axios';
-import React, { Component ,useContext,useEffect} from 'react'
+import React, { useContext,useEffect} from 'react'
 import UserItem from './UserItem';
 import Spinner from '../layout/spinner'
-import PropTypes from 'prop-types';
 import GithubContext from '../../context/github/githubContext';
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Alert from '../layout/alert'
 
  const About = () => {
     return (
