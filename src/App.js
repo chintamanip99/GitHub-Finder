@@ -1,8 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
-import React, { Component, Fragment,useState ,useEffect,useContext} from 'react';
+import React, {  Fragment,useState ,useEffect,useContext} from 'react';
 import NavBar from './components/layout/navbar.js';
-import UserItem from './components/users/UserItem.js';
 import Users from './components/users/Users.js';
 import User from './components/users/User';
 import Search from './components/users/Search.js';
@@ -15,7 +14,7 @@ import GithubContext from './context/github/githubContext';
 
 const App=()=> {
  
-  const githubContext = useContext(GithubContext);
+  // const githubContext = useContext(GithubContext);
   const [users,setUsers]=useState([]);
   const [loading,setLoading]=useState(false);
   const [alert,setAlert]=useState(null);
