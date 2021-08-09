@@ -9,8 +9,11 @@ const Users =()=>  {
 
 const githubContext = useContext(GithubContext);
 
+// eslint-disable-next-line react-hooks/exhaustive-deps
+
 useEffect(() => {
    githubContext.loadUsers();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
 }, [])
 
 if(githubContext.loading){

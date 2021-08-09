@@ -10,7 +10,7 @@ const User =({user,loading,getUser,getUserRepos,repos,match:{params}})=> {
     getUser(params.login);
     getUserRepos(params.login);
    }
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
    ,[])
 
    
@@ -18,10 +18,10 @@ const User =({user,loading,getUser,getUserRepos,repos,match:{params}})=> {
     
 
         const {
-            login,
+            // login,
             company,
-            id,
-            node_id,
+            // id,
+            // node_id,
             avatar_url,
             html_url,
             name,

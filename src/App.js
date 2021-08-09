@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, {  Fragment,useState ,useEffect,useContext} from 'react';
+import React, {  Fragment,useState ,useEffect} from 'react';
 import NavBar from './components/layout/navbar.js';
 import Users from './components/users/Users.js';
 import User from './components/users/User';
@@ -10,7 +10,7 @@ import Alert from './components/layout/alert';
 import About from './components/pages.js/About';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import GithubState from './context/github/GithubState';
-import GithubContext from './context/github/githubContext';
+// import GithubContext from './context/github/githubContext';
 
 const App=()=> {
  
